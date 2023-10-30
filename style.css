@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #0434f2;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.rules__title {
+  font-size: 24px;
+}
+.rules__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rules p {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.rules button {
+  padding: 15px 50px;
+  font-size: 20px;
+  border: 1px solid #0434f2;
+  background: none;
+  margin: 18px 0;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.rules button:hover {
+  background: #0434f2;
+  color: #fff;
+}
+
+.game__field {
+  padding: 30px 0;
+}
+.game__field-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.game__field-stats {
+  display: flex;
+  font-size: 24px;
+  gap: 50px;
+}
+.game__field-game {
+  padding: 50px 0;
+}
+.game__field-word {
+  font-size: 48px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+}
+.game__field-input {
+  outline-color: #0434f2;
+  border: none;
+  padding: 5px;
+  width: 320px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 24px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.game__field-btns {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.game__field-btns button {
+  padding: 5px 20px;
+  font-size: 20px;
+  background: none;
+  border: 1px solid #0434f2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.game__field-btns button:hover {
+  background: #0434f2;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 30px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 10px;
+}
+
+.info {
+  font-size: 36px;
+  margin-top: 35px;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.retry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 40px;
+  padding: 60px 0;
+}
+.retry__button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: green;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.retry__button:hover {
+  opacity: 0.8;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

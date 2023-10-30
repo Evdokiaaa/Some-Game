@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scruble Worlds</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__title">
+            <h2>Scruble Worlds</h2>
+          </div>
+          <div class="header__links">
+            <a href="https://github.com/">
+              <img src="github.svg" alt="github" />
+            </a>
+            <a href="https://twitter.com/">
+              <img src="twitter.svg" alt="twitter" />
+            </a>
+            <a href="https://www.youtube.com/">
+              <img src="youtube.svg" alt="youtube" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="rules">
+        <div class="container">
+          <div class="rules__container">
+            <h4 class="rules__title">Guess the word</h4>
+            <p>Type in your guess</p>
+            <p>Get three correct and level up.</p>
+            <p>If you get it wrong 3 times, it will restart</p>
+            <p>Finish level 8 and you win!</p>
+            <p>Good luck! &#128522;</p>
+            <button class="play__btn">Start</button>
+          </div>
+        </div>
+      </section>
+      <section class="game__field hidden">
+        <div class="container">
+          <div class="game__field-container">
+            <div class="game__field-stats">
+              <p>Level: <span id="level">1</span></p>
+              <p>Score: <span id="score">0</span></p>
+              <p>Attempts: <span id="attempts">0</span></p>
+            </div>
+            <div class="info"></div>
+            <div class="game__field-game">
+              <p class="game__field-word">BOOBA</p>
+              <input
+                class="game__field-input"
+                type="text"
+                placeholder="Enter your guess"
+              />
+              <div class="game__field-btns">
+                <button class="game__field-submit">Submit</button>
+                <button class="game__field-reroll">
+                  Rerol:<span class="reroll">3</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
